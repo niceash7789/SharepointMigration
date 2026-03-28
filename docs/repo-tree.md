@@ -1,16 +1,22 @@
-# Proposed Repository Tree
+# Repository Tree (Current)
 
 ```text
 SharepointMigration/
 ├─ AGENT.md
 ├─ infra/
-│  └─ AGENT.md
+│  ├─ AGENT.md
+│  └─ main.bicep
 ├─ runbooks/
-│  └─ AGENT.md
+│  ├─ AGENT.md
+│  ├─ Invoke-MigrationDispatcher.ps1
+│  └─ Invoke-MigrationJob.ps1
 ├─ provision/
-│  └─ AGENT.md
+│  ├─ AGENT.md
+│  ├─ Deploy-Environment.ps1
+│  └─ Remove-Environment.ps1
 ├─ config/
-│  └─ AGENT.md
+│  ├─ AGENT.md
+│  └─ settings.default.json
 └─ docs/
    ├─ AGENT.md
    ├─ architecture.md

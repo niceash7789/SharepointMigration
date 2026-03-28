@@ -1,0 +1,20 @@
+{
+  "Automation": {
+    "DispatcherRunbookName": "Invoke-MigrationDispatcher",
+    "MigrationRunbookName": "Invoke-MigrationJob",
+    "PollScheduleName": "migration-dispatcher-poll",
+    "PollIntervalMinutes": 1
+  },
+  "SharePoint": {
+    "JobsListName": "Migration Jobs",
+    "LogsListName": "Migration Logs",
+    "SettingsListName": "Migration Settings"
+  },
+  "Defaults": {
+    "MaxParallelTasks": 3,
+    "PollIntervalSeconds": 60,
+    "VerificationRetryCount": 6,
+    "VerificationRetryDelaySeconds": 10,
+    "DefaultMaxAttempts": 3
+  }
+}
